@@ -8,6 +8,7 @@ i want to see them! do analysis, find vulnz.
 i'm running on a raspberry pi. should work on any linux box with a BT adapter.
 ## will work?
 i don't know. it matches the spec. i haven't seen one in the wild yet
+![the spec](img/contact_tracing_packet_payload.png)
 ## how run?
 run it. it's really simple right now, just sudo python3 in_the_air_tonight.py and output will appear on your screen. pip install bluepy, also.
 ## how test?
