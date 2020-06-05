@@ -1,7 +1,9 @@
 # in_the_air_tonight
 a short but sweet COVID19 Contact Tracing BLE packet detector
 ## what
-COVID19 Contact Tracing implemented by google and apple TODO: add linkz
+COVID19 Contact Tracing implemented by google and apple
+* https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ExposureNotification-BluetoothSpecificationv1.2.pdf
+* https://blog.google/documents/58/Contact_Tracing_-_Bluetooth_Specification_v1.1_RYGZbKW.pdf
 ## why
 i want to see them! do analysis, find vulnz.
 ## where
