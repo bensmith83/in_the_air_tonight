@@ -6,7 +6,10 @@ COVID19 Contact Tracing implemented by google and apple
 * https://blog.google/documents/58/Contact_Tracing_-_Bluetooth_Specification_v1.1_RYGZbKW.pdf
 ### web bluetooth?! web bluetooth.
 Check out scan.html for a cheap hack of the google chrome web bluetooth advertisement scan example code. You too can now scan for Contact Tracing packets via a web page.
-![Web Bluetooth Screenshot](img/webbluetooth.png)
+
+|![Web Bluetooth Screenshot](img/webbluetooth.png)|
+-
+
 ## why
 i want to see them! do analysis, find vulnz.
 ## where
