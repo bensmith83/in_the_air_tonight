@@ -29,7 +29,8 @@ pip install dist/in_the_air_tonight-1.0.0-py2.py3-none-any.whl
 
 You can then just run the command 'in-the-air-tonight' via command-line. e.g.
 
-root@JWL:~# in-the-air-tonight 
+root@JWL:~# in-the-air-tonight
+ 
  [*] scanning for BLE contact tracing packets
 
 
