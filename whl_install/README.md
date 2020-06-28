@@ -20,10 +20,11 @@ i don't know. it matches the spec. i haven't seen one in the wild yet
 ## how run?
 
 build a whl file for easier install:
-0) sh build.sh 
+
+sh build.sh 
 
 Then, on each system where you would like to install, just send the .whl file and run:
-1) pip install dist/in_the_air_tonight-1.0.0-py2.py3-none-any.whl
+pip install dist/in_the_air_tonight-1.0.0-py2.py3-none-any.whl
 
 You can then just run the command 'in-the-air-tonight' via command-line. e.g.
 
