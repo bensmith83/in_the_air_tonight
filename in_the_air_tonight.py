@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 from bluepy.btle import Scanner, DefaultDelegate, BTLEManagementError
+from datetime import datetime
+
 #Define colors # colors shamelessly borrowed form the dude that wrote the VandyVape vuln
 def Red(skk): print("\033[91m {}\033[00m" .format(skk)) 
 def Green(skk): print("\033[92m {}\033[00m" .format(skk))
@@ -33,9 +35,9 @@ def scan_devices():
                 #value is stringified and these bytes are reversed at this point
                 if value.find("6ffd") == 0 or value.find("6FFD") == 0:
                     if len(value) == 22*2:
-                        Green("[+] Discovered Covid19 Contact Tracing Packet from {} ({}) with value: {} and metadata: {}".format(dev.addr, dev.rssi, value[4:-8], value[-8:]))
+                        Green("[+] [{}] Discovered Covid19 Contact Tracing Packet from {} ({}) with value: {} and metadata: {}".format(datetime.now(), dev.addr, dev.rssi, value[4:-8], value[-8:]))
                     else:
-                        Green("[+] Discovered Covid19 nonstandard Contact Tracing Packet from {} ({}) with value: {}".format(dev.addr, dev.rssi, value[4:]))
+                        Green("[+] [{}] Discovered Covid19 nonstandard Contact Tracing Packet from {} ({}) with value: {}".format(datetime.now(), dev.addr, dev.rssi, value[4:]))
                     Yellow("[-] Adtype: {:02x}, desc: {}, value: {}".format(adtype, desc, value))
 
 def main():
